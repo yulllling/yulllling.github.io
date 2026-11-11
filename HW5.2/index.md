@@ -1,4 +1,4 @@
-# IS445 Homework 8
+# IS445 Homework HW5.2
 
 ## Chart 1: Number of Licenses by Beauty Profession
 
