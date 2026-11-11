@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IS445 Homework HW5.2</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+
+<h1>IS445 Homework HW5.2</h1>
+
+<h2>Chart 1: Number of Licenses by Beauty Profession</h2>
+
+<p>
+This chart shows the number of licenses for different beauty professions in Illinois.
+The x-axis shows the number of licenses, and the y-axis shows the professions.
+I use blue bars to make the chart simple and clear.
+I grouped the data by profession and counted the licenses in each group.
+I also sorted the results from highest to lowest.
+</p>
+
+<div id="chart1"></div>
+
+<h2>Chart 2: License Status by Beauty Profession</h2>
+
+<p>
+This chart shows the license status of different beauty professions.
+The x-axis shows the professions, and the y-axis shows the number of licenses.
+I use different colors for different license statuses.
+I grouped the data by profession and license status.
+Users can click the legend to highlight different license statuses and compare the results.
+</p>
+
+<div id="chart2"></div>
+
+<h2>Data</h2>
+<p>
+<a href="https://github.com/UIUC-iSchool-DataViz/is445_data/blob/main/licenses_fall2022.csv">
+The Data
+</a>
+</p>
+
+<h2>Analysis</h2>
+<p>Notebook link will be added here.</p>
+
+<script>
+vegaEmbed("#chart1", "assets/chart1.json");
+vegaEmbed("#chart2", "assets/chart2.json");
+</script>
+
+</body>
+</html>
