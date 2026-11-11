@@ -20,6 +20,11 @@ This chart shows the license status of different beauty professions. The x-axis 
 
 Notebook link will be added here.
 
+
+<div id="chart1"></div>
+
+<div id="chart2"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
